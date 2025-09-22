@@ -1,0 +1,8 @@
+/node_modules
+/vendor
+/storage/*.key
+/.env
+/.env.local
+/.env.development
+/.env.production.local
+/.git
