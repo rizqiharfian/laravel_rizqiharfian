@@ -7,6 +7,10 @@ use App\Http\Controllers\PasienController;
 
 Auth::routes();
 
+Route::get('/', function () {
+    return view('welcome');
+});
+
 Route::middleware(['auth'])->group(function () {
     // Dashboard
     Route::get('/dashboard', function () {
