@@ -16,5 +16,5 @@
       "dest": "public/index.php"
     }
   ],
-  "buildCommand": "composer install --no-dev --optimize-autoloader && npm install && npm run build"
+  "outputDirectory": "public"
 }
